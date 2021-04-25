@@ -1,13 +1,47 @@
 # 学习 Ant Design Pro V5
 
-##项目搭建 1.创建脚手架/选择 ant-design-pro 模板 npm/yarn create umi 2.创建本地仓库  
- git init 3.添加到 code .是所有的意思  
- git add . 4.描述信息  
- git commit -m "描述" 5.链接远程仓库  
- git remote add origin 你的远程库地址 6.更新分支记录 git pull origin main --allow-unrelated-histories 7.推送远程仓库 git push -u origin main -f  
- 8.安装模块  
- npm/yarn isntall 9.项目启动 npm run start 10.代理服务  
- npm run start:test
+##项目搭建
+
+1.创建脚手架/选择
+
+    ant-design-pro 模板
+    npm/yarn create umi
+
+2.创建本地仓库
+
+    git init
+
+3.添加到 code .是所有的意思
+
+    git add .
+
+4.描述信息
+
+    git commit -m "描述"
+
+5.链接远程仓库
+
+    git remote add origin 你的远程库地址
+
+6.更新分支记录
+
+    git pull origin main --allow-unrelated-histories
+
+7.推送远程仓库
+
+    git push -u origin main -f
+
+8.安装模块
+
+    npm/yarn isntall
+
+9.项目启动
+
+    npm run start
+
+10.代理服务
+
+    npm run start:test
 
 ##官网文档
 
