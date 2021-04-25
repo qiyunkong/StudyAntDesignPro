@@ -19,9 +19,27 @@ Ant.design.pro V5 - https://beta-pro.ant.design/docs/overview-cn
 
 ProComponents - https://procomponents.ant.design/
 
-##项目目录 ├── config # umi 配置，包含路由，构建等配置 ├── mock # 本地模拟数据 ├── public │ └── favicon.png # Favicon ├── src │ ├── assets # 本地静态资源 │ ├── components # 业务通用组件 │ ├── e2e # 集成测试用例 │ ├── layouts # 通用布局 │ ├── models # 全局 dva model │ ├── pages # 业务页面入口和常用模板 │ ├── services # 后台接口服务 │ ├── utils # 工具库 │ ├── locales # 国际化资源 │ ├── global.less # 全局样式 │ ├── global.ts # 全局 JS  
- │ └── app.tsx # 全局 app.tsx  
- │ ├── tests # 测试工具 ├── README.md └── package.json
+##项目目录
+
+    ├── config                   # umi 配置，包含路由，构建等配置
+    ├── mock                     # 本地模拟数据
+    ├── public
+    │   └── favicon.png          # Favicon
+    ├── src
+    │   ├── assets               # 本地静态资源
+    │   ├── components           # 业务通用组件
+    │   ├── e2e                  # 集成测试用例
+    │   ├── layouts              # 通用布局
+    │   ├── models               # 全局 dva model
+    │   ├── pages                # 业务页面入口和常用模板
+    │   ├── services             # 后台接口服务
+    │   ├── utils                # 工具库
+    │   ├── locales              # 国际化资源
+    │   ├── global.less          # 全局样式
+    │   └── global.ts            # 全局 JS
+    ├── tests                    # 测试工具
+    ├── README.md
+    └── package.json
 
 ##项目配置-config 项目的路由,打包,服务,都是在这里配置
 
@@ -32,7 +50,9 @@ ProComponents - https://procomponents.ant.design/
       ├── routes.ts                # 路由配置
       ├── proxy.ts                 # 代理服务配置
 
-###路由-routes 配置式路由:配置路由通过配置生成对应的路由, 详情配置：https://umijs.org/zh-CN/docs/routing
+###路由-routes
+
+配置式路由:配置路由通过配置生成对应的路由, 详情配置：https://umijs.org/zh-CN/docs/routing
 
 ```js
 [
