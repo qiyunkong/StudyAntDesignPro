@@ -146,9 +146,9 @@ export default {
 };
 ```
 
-###项目主题
+###项目主题-defaultSettings
 
-项目的主题色,布局,网站标题配置
+项目的主题色,布局,网站标题配置,导航模式,内容区域详情：https://preview.pro.ant.design/
 
 ```js
 import { Settings as LayoutSettings } from '@ant-design/pro-layout';
@@ -176,7 +176,9 @@ const Settings: LayoutSettings & {
 export default Settings;
 ```
 
-###配置
+###配置-config
+
+打包,构建,
 
 ##伪数据-MOCK
 
@@ -198,3 +200,52 @@ export default {
   },
 };
 ```
+
+##公共资源-public
+
+图标,img,js,css
+
+##项目入口-src
+
+    目录结构
+     ├─.umi                     # umi模块
+     ├─components               # 组件模块
+     │  ├─Footer
+     │  ├─HeaderDropdown
+     │  ├─HeaderSearch
+     │  ├─NoticeIcon
+     │  └─RightContent
+     ├─e2e
+     ├─locales                  # 国际化
+     │  ├─en-US
+     │  ├─fa-IR
+     │  ├─id-ID
+     │  ├─ja-JP
+     │  ├─pt-BR
+     │  ├─zh-CN
+     │  └─zh-TW
+     ├─pages                    # 页面
+     │  ├─TableList
+     │  │  └─components
+     │  └─user
+     │      └─Login
+     ├─services                 # 后台接口服务
+     │  ├─ant-design-pro
+     │  └─swagger
+     ├─app.tsx                  # 最先执行的
+     │
+     ├─global.tsx               # 全局的ts
+     │
+     ├─typings.d.tsx            # what?
+     │
+     └─utils
+
+### app.tx
+
+getInitialState() 返回值是个 Promise 对象
+
+详情：https://umijs.org/zh-CN/plugins/plugin-initial-state
+
+服务端渲染 menu
+
+详情：https://blog.csdn.net/weixin_41957432/article/details/109774455
