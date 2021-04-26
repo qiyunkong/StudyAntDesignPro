@@ -75,7 +75,9 @@ ProComponents - https://procomponents.ant.design/
     ├── README.md
     └── package.json
 
-##项目配置-config 项目的路由,打包,服务,都是在这里配置
+##项目配置-config
+
+项目的路由,打包,服务,都是在这里配置
 
       配置目录
       ├── config.dev.ts            # webpack配置
@@ -144,7 +146,9 @@ export default {
 };
 ```
 
-###项目主题项目的主题色,布局,网站标题配置
+###项目主题
+
+项目的主题色,布局,网站标题配置
 
 ```js
 import { Settings as LayoutSettings } from '@ant-design/pro-layout';
@@ -174,7 +178,9 @@ export default Settings;
 
 ###配置
 
-##伪数据-MOCK 能够开启一个小的 web 服务,如 POST,GET 的请求 详情：https://umijs.org/zh-CN/docs/mock
+##伪数据-MOCK
+
+能够开启一个小的 web 服务,如 POST,GET 的请求 详情：https://umijs.org/zh-CN/docs/mock
 
 ```js
 export default {
